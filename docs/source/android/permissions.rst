@@ -1,12 +1,12 @@
 |AppName| Android Permissions
-============
+===============================
 
 .. Variables
 .. include:: ../vars.rst
 
 Permissions are declared in ``AndroidManifest.xml``.
 
-.. csv-table::Android Required Permissions
+.. csv-table:: Android Required Permissions
     :header: "Permission", "Needed For"
 
     "WRITE_EXTERNAL_STORAGE", "Required for the **SharedPermissions** lib"
