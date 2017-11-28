@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DDRONE</string>
+
+    <!--Drawer strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--App toolbar overflow menu settings-->
+    <string name="action_settings">Settings</string>
+
+    <!--Drawer fragments/activities and actions-->
+    <string name="action_hardware">Hardware</string>
+    <string name="action_docs">Documentation</string>
+    <string name="action_contact">Contact DKE Labs</string>
+    <string name="action_wake_screen">Wake Screen Pi</string>
+    <string name="action_reboot">Reboot Pi</string>
+    <string name="action_shutdown">Shutdown Pi</string>
+    <!--DJI Functionality drawer functionality-->
+    <string name="start_deauth_mobile_target">Start Deauthing Target</string>
+    <string name="start_monitor_mode">Start Monitor Mode</string>
+    <string name="stop_monitor_mode">Stop Monitor Mode</string>
+
+
+    <!--Buttons on the main activity-->
+    <string name="monitor_button_start_text">Start Monitoring</string>
+    <string name="monitor_button_stop_text">Stop Monitoring</string>
+    <string name="jam_button_start_text">Start Jamming</string>
+    <string name="jam_button_stop_button">Stop Jamming</string>
+    <string name="crack_button_start_text">Start Cracking</string>
+    <string name="crack_button_active_text">Cracking Drone...</string>
+    <string name="force_land_button_text">Force Land</string>
+    <string name="force_land_button_active_text">Landing...</string>
+    <string name="go_home_button_text">Go Home</string>
+    <string name="go_home_button_active_text">Going Home...</string>
+
+
+    <!--Alerts and status updates-->
+    <string name="system_status_text_default">Initializing system&#8230;</string>
+    <string name="system_status_text_ready">System ready</string>
+
+    <string name="system_alert_text_default">  No alerts to display</string>
+
+    <!--Notifications-->
+    <string name="notification_title">ALERT</string>
+    <string name="notification_text">DRONE DETECTED IN AREA</string>
+
+    <!--Website Links-->
+    <!--<string name="website_grim_trigger_docs">http://grim-trigger.dkelabs.com/</string>-->
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Mac Address Prefix">
+        <EditTextPreference
+            android:key="mac_prefix_preference"
+            android:title="Mac Address Prefix"
+            android:summary="Custom access point mac address to test on."
+            android:defaultValue=" " />
+    </PreferenceCategory>
+</PreferenceScreen>

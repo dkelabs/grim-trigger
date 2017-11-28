@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_hardware"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_hardware" />
+    </group>
+
+    <item android:title="Pi Options">
+        <menu>
+            <item
+                android:id="@+id/action_wake_screen"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_wake_screen" />
+            <item
+                android:id="@+id/action_reboot"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_reboot" />
+            <item
+                android:id="@+id/action_shutdown"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_shutdown" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:title="DJI Functions">
+            <menu>
+                <item
+                    android:id="@+id/start_deauth_mobile_target"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/start_deauth_mobile_target" />
+                <item
+                    android:id="@+id/start_monitor_mode"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/start_monitor_mode" />
+                <item
+                    android:id="@+id/stop_monitor_mode"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/stop_monitor_mode" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Resources">
+            <menu>
+                <item
+                    android:id="@+id/action_docs"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/action_docs" />
+                <item
+                    android:id="@+id/action_contact"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/action_contact" />
+            </menu>
+        </item>
+    </group>
+</menu>

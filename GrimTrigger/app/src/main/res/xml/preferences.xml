@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <PreferenceCategory
+        android:title="Monitoring">
+        <CheckBoxPreference
+            android:key="pref_auto_monitor"
+            android:title="Monitor at launch"
+            android:summary="Begin monitoring for drones as soon as the application is launched."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    -->
+    <PreferenceCategory
+        android:title="Testing">
+        <CheckBoxPreference
+            android:key="testing_mode_preference"
+            android:title="Testing Mode"
+            android:summary="Enable the override of certain options and debugging."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

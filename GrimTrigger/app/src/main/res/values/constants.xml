@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dji_mac_prefix">60:60:1F</string>
+    <string name="dji_phantom3_default_password">12341234</string>
+    <string name="bt_device_hostname">dkelabspi</string>
+    <string name="bt_device_uuid">94f39d29-7d6d-437d-973b-fba39e49d4ee</string>
+</resources>
